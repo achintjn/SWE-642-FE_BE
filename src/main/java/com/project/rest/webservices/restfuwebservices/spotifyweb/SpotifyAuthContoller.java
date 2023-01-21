@@ -23,8 +23,8 @@ import se.michaelthelin.spotify.requests.data.personalization.simplified.GetUser
 @RequestMapping("/api")
 public class SpotifyAuthContoller {
 	
-	private static final String clientId = "7156c754ee324f228fcc9d5688771aa9";
-	private static final String clientSecret = "79b4f1df62ef4322b6ee2aa78f24b81b";
+	private static final String clientId = ""; //use secrets from spotify
+	private static final String clientSecret = "";
 	private static final URI redirectUri = SpotifyHttpManager.makeUri("http://localhost:8080/api/get-user-code");
 	private static String code = "";
 	
