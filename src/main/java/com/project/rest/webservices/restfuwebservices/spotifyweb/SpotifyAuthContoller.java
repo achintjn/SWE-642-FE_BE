@@ -24,7 +24,7 @@ import se.michaelthelin.spotify.requests.data.personalization.simplified.GetUser
 public class SpotifyAuthContoller {
 	
 	private static final String clientId = ""; 
-	private static final String clientSecret = "";
+	private static final String clientSecret = ""; //
 	private static final URI redirectUri = SpotifyHttpManager.makeUri("http://localhost:8080/api/get-user-code");
 	private static String code = "";
 	
